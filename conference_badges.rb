@@ -14,8 +14,11 @@ end
 def assign_rooms(array)
   rooms = []
   array.each_with_index do |name|
-    rooms.push"Hello, #{name}, your room number is #{index+1}
+    rooms.push"Hello, #{name}, your room number is #{index}"
+  end
+  return rooms
 end
+
 
 def printer
 end
