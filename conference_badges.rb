@@ -21,7 +21,7 @@ end
 
 
 def printer
-  badges.each do |badge| 
+  badges.each do |badge|
     puts badge
   rooms.each do |room|
     puts room
