@@ -26,3 +26,4 @@ def printer
   rooms.each do |room|
     puts room
 end
+end
