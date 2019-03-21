@@ -5,10 +5,12 @@ end
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(array)
-  array.each do |name|
-  badge_maker(name)
+  array.each do |n|
+    badges = "Hello, my name is #{n}."
+    puts badges
+  end
 end
-end
+
 
 def assign_rooms
 end
