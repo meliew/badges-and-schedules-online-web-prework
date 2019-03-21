@@ -21,6 +21,6 @@ end
 
 
 def printer
-  puts badges 
+  puts badges
   puts rooms
 end
