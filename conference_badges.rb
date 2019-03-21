@@ -7,13 +7,13 @@ def batch_badge_creator(array)
   array.each do |name|
     badges.push"Hello, my name is #{name}."
   end
-  return badges 
+  return badges
 end
 
 
 def assign_rooms(array)
   rooms = []
-  array.each_with_index do |name| 
+  array.each_with_index do |name|
     rooms.push"Hello, #{name}, your room number is #{index+1}
 end
 
