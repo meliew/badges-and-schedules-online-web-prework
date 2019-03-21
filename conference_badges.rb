@@ -1,10 +1,10 @@
-def badge_maker
+def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(array)
   array.each do |n|
-    badges = "Hello, my name is #{n}."
+    badges = badge_maker(n)
     return badges
   end
 end
